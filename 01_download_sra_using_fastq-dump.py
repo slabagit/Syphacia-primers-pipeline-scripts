@@ -20,7 +20,7 @@ def download_and_split_sra(sra_list, output_dir):
         # The -O option specifies the output directory for the downloaded files
         os.system(f"fastq-dump {sra} --split-files -O {output_dir}")
 
-    print("Download completed.")
+    print("\nDownload completed.")
 
 # ==================
 # USER CONFIGURATION
