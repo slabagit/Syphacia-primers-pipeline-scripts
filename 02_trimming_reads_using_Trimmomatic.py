@@ -35,7 +35,7 @@ def run_trimmomatic(id_list, input_dir, output_dir, trimmomatic_jar, adapter_fil
         )
         os.system(trimmomatic_cmd)
     
-    print("Trimming completed for all samples.")
+    print("\nTrimming completed for all samples.")
 
 # ==================
 # USER CONFIGURATION
