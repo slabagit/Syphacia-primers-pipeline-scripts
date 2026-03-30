@@ -46,6 +46,7 @@ if __name__ == "__main__":
     ]
     
     # Define input and output directories
+    # Input directory should be the output directory from the SPAdes assembly step
     my_input_dir = "./assembled_data"
     my_output_dir = "./quast_results"
     
