@@ -54,4 +54,5 @@ if __name__ == "__main__":
     my_min_contig_len = 500 # in bp
     
     # Run the QUAST analysis function
-    run_quast(id_list=my_id_list, input_dir=my_input_dir, output_dir=my_output_dir, threads=my_threads, min_contig_len=my_min_contig_len)
+    run_quast(id_list=my_id_list, input_dir=my_input_dir, output_dir=my_output_dir,
+              threads=my_threads, min_contig_len=my_min_contig_len)
